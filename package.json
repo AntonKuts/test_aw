@@ -1,0 +1,27 @@
+{
+  "name": "test_aw",
+  "version": "1.0.0",
+  "description": "test_aw",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "react-hot-loader": "^1.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonKuts/test_aw.git"
+  },
+  "author": "Kuts Anton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonKuts/test_aw/issues"
+  },
+  "homepage": "https://github.com/AntonKuts/test_aw#readme"
+}

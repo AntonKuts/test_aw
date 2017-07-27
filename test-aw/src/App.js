@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Map from './Map';
+import { Button } from "react-bootstrap";
+
 
 class App extends Component {
   render() {
@@ -66,20 +68,16 @@ class App extends Component {
           </div>
           <div className="oneCompany">
           </div>
-          <div className="oneCompany">
+            <div className="oneCompany">
           </div>
         </div>
 
-        <h3>World population map</h3>
-        <div className="map">
-          <p className="textForMap">Population</p>
-          <input className="inputForMap" type="text" name="" value=""></input>
-        </div>
+        <Map />
 
         <div className="startProfile">
           <div className="forTextAndBtnProfile">
           <p className="textProfile">Start Bulding Your Own Profile Now</p>
-          <button className="buttonProfile" type="button" name="button">Get stated</button>
+            <Button bsStyle="primary" bsSize="large" className="buttonProfile">Get started</Button>
           </div>
         </div>
 

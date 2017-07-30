@@ -33,7 +33,7 @@ h5 {
   font-size: 30px;
 }
 
-.batt {
+.batton {
   width: 145px;
 }
 
@@ -48,12 +48,6 @@ h5 {
   margin-top: 30px;
   margin-bottom: 40px;
 }
-
-
-/*.nav {
-  margin-top: 20px;
-  margin-left: 110px;
-}*/
 
 ul {
   list-style-type: none;

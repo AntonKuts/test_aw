@@ -16,16 +16,15 @@ class App extends Component {
         </div>
         <div className="col-xs-12 col-sm-9 col-sm-offset-1">
           <ul className="nav nav-pills row header">
-            <li role="presentation" className="batt col-xs-4 col-sm-2"><a href="">How we work</a></li>
-            <li role="presentation" className="batt col-xs-4 col-sm-2"><a href="">Companies</a></li>
-            <li role="presentation" className="batt col-xs-4 col-sm-2"><a href="">Testimonials</a></li>
-            <li role="presentation" className="batt col-xs-4 col-sm-2"><a href="">Contact Us</a></li>
-            <li role="presentation" className="batt btn btn-default navbar-btn col-xs-6 col-sm-2 right2" href="#" role="button"><a href="">Sing up</a></li>
-            <li role="presentation" className="batt btn btn-default navbar-btn col-xs-6 col-sm-2" href="#" role="button"><a href="">Login</a></li>
+            <li role="presentation" className="batton col-xs-4 col-sm-2"><a href="">How we work</a></li>
+            <li role="presentation" className="batton col-xs-4 col-sm-2"><a href="">Companies</a></li>
+            <li role="presentation" className="batton col-xs-4 col-sm-2"><a href="">Testimonials</a></li>
+            <li role="presentation" className="batton col-xs-4 col-sm-2"><a href="">Contact Us</a></li>
+            <li role="presentation" className="batton btn btn-default navbar-btn col-xs-6 col-sm-2 right2" href="#" role="button"><a href="">Sing up</a></li>
+            <li role="presentation" className="batton btn btn-default navbar-btn col-xs-6 col-sm-2" href="#" role="button"><a href="">Login</a></li>
           </ul>
         </div>
       </div>
-
 
         <div className="row slader">
           <div className="row controlAndTextForSlader">

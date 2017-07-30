@@ -5,10 +5,14 @@
 }
 
 .wrapper {
-  width: 1190px;
+  width: 1200px;
   height: 2600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.border {
+border: 2px solid black;
 }
 
 h2 {
@@ -25,121 +29,86 @@ h3 {
 }
 
 h5 {
-  margin-top: 20px;
   text-transform: uppercase;
   font-size: 30px;
 }
 
+.batt {
+  width: 145px;
+}
+
 .header {
-  width: 1190px;
   height: 140px;
+  margin-top: 20px;
 }
 
 .logo {
-  width: 172px;
-  height: 106px;
+  height: 100px;
   border: 2px solid black;
-  margin: 15px;
-  float: left;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
+
+
+/*.nav {
+  margin-top: 20px;
+  margin-left: 110px;
+}*/
 
 ul {
   list-style-type: none;
 }
 
 li {
-  width: 109px;
-  height: 37px;
-  margin-right: 35px;
   margin-top: 15px;
-  float: right;
   text-align: center;
-  line-height: 37px;
 }
 
 a {
-  text-decoration: none;
   color: black;
 }
 
-.border {
-  border: 2px solid black;
-}
-
 .slader {
-  width: 1140px;
   height: 466px;
   border: 2px solid black;
-  margin-left: 10px;
-  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .controlAndTextForSlader {
-  width: 1140px;
   height: 100px;
   margin-top: 170px;
 }
 
 .left {
   height: 100px;
-  width: 95px;
   background: url(images/left.png);
-  margin-right: 15px;
-  float: left;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .textForSlader {
   height: 100px;
-  width: 500px;
-  margin-left: 200px;
-  float: left;
   text-align: center;
 }
 
 .right {
   height: 100px;
-  width: 95px;
   background: url(images/right.png);
-  margin-left: 15px;
-  float: right;
-}
-
-.forWork {
-  width: 1190px;
-  height: 300px;
-}
-
-.forText {
-  width: 680px;
-  height: 270px;
-  margin: 15px;
-  float: left;
-}
-
-video {
-  width: 438px;
-  height: 286px;
-  border: 2px solid black;
-  margin-right: 10px;
-  float: right;
-}
-
-.forCompanies {
-  width: 1170px;
-  height: 392px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .oneCompany {
-  width: 355px;
+  width: 390px;
   height:164px;
   border: 2px solid black;
-  margin: 15px;
-  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .forMap {
   width: 1182px;
-  height: 600px;  
+  height: 600px;
 }
 
 .map {
@@ -158,46 +127,27 @@ video {
 }
 
 .startProfile {
-  width: 1154px;
   height: 106px;
   border: 2px solid black;
-  margin: 15px;
-  margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 .forTextAndBtnProfile {
-  width: 1154px;
   height: 30px;
   margin-top: 35px;
 }
 
 .textProfile {
-font-size: 30px;
-position: relative;
-left: 200px;
-float: left;
-}
-
-.buttonProfile {
-position: relative;
-right: 80px;
-float: right;
-}
-
-.contactAndAddrees {
-  width: 1150px;
-  height: 400px;
-}
-
-.contact {
-  width: 750px;
-  height: 360px;
-  margin-left: 15px;
+  font-size: 30px;
+  position: relative;
+  left: 200px;
   float: left;
 }
 
-.leftSide {
-  text-align: left;
+.buttonProfile {
+  position: relative;
+  right: 80px;
+  float: right;
 }
 
 .inputName, .inputEmail, .inputMessage {
@@ -218,13 +168,6 @@ float: right;
   position: relative;
   bottom: 45px;
   text-transform: uppercase;
-}
-
-.addrees {
-  width: 300px;
-  height: 300px;
-  margin-right: 15px;
-  float: right;
 }
 
 .city {
@@ -272,4 +215,8 @@ float: right;
 .pinterest {
   background: url(images/pinterest-48.png);
   background-size: cover;
+}
+
+.right2 {
+  margin-right: 10px;
 }

@@ -6,6 +6,8 @@ import './App.css';
 
 
 class Map extends Component {
+
+  // start state
   state = {
     filterByPopulation: 500000,
     data: null,
@@ -13,25 +15,27 @@ class Map extends Component {
     errorMessage: ''
   }
 
+// take info from json
   componentWillMount() {
-    // this.anychartLoader();
     let self = this;
     if(this.state.data === null) {
       $.getJSON('./citys.json').fail(data => console.log(data)).done(function(data) {
         self.setState({data: data});
       });
     }
-
   }
 
+// enter and min_population
   handleChange = (e) => {
     const options = {
       ENTER_CODE: 13,
       MIN_POPULATION: 300000,
     }
 
+// can use spaces
     let count = parseInt(e.target.value.replace(/ /ig, ''));
 
+// input population
     if(e.keyCode === options.ENTER_CODE) {
       if(count > options.MIN_POPULATION) {
         this.setState({ filteredData: this.state.data.filter((item, index) => item.value >= count), errorMessage: '' });
@@ -42,11 +46,10 @@ class Map extends Component {
   }
 
   render() {
-    // let data = this.state.data ? this.state.data.filter(item => item >= 500000) : [];
     return (
         <div className="forMap">
           <h3>World population map</h3>
-          <div id="container" className="map">
+          <div className="map">
             <p className="textForMap">Population</p>
             <label><input className="inputForMap" onKeyDown={this.handleChange} type="text" name=""/>{this.state.errorMessage}</label>
             {
